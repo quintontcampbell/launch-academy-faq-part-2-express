@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Question from './Question'
-import { hot } from "react-hot-loader/root"
 import FAQForm from "./FAQForm"
 
 const FAQList = props => {
@@ -85,4 +84,4 @@ const FAQList = props => {
   )
 }
 
-export default hot(FAQList)
+export default FAQList
